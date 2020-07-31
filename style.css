@@ -37,6 +37,7 @@ nav ul li{
 nav ul li a{
   padding: 5px; 
   background: rgb(250, 212, 141);
+  color: gold;
   border-radius: 20px;
   transition: 0.5s;
 }
