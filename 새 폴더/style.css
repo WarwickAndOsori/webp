@@ -1,0 +1,75 @@
+* {
+    margin: 0;/*바깥*/
+    padding: 0;/*안쪽 여백*/
+    box-sizing: border-box;
+}
+body {
+  background-color: tomato;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSX9XuHp6Gv8_2Ddf6Etg-r-63ndgJG6MV72A&usqp=CAU);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: gold;
+  text-shadow: 1px 1px 0 gray;
+  font-size: 30px;
+  line-height: 160%;
+  letter-spacing: -1px;
+  font-family: 'Do Hyeon', sans-serif;
+}
+a{
+  text-decoration: none;
+  color: gold;
+  text-shadow: 1px 1px gray;
+}
+
+header{
+  margin: 20px auto;
+  width: 50%;
+}
+nav ul{
+  display: flex;
+}
+nav ul li{
+  flex: 1;
+  list-style: none;
+  text-align: center;
+  padding: 10px;
+}
+nav ul li a{
+  padding: 5px; 
+  background: rgb(250, 212, 141);
+  border-radius: 20px;
+  transition: 0.5s;
+}
+nav ul li a:hover{
+  background: wheat;
+}
+article{
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+.main{
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+table {
+  text-align: left;
+  margin: 20px auto;
+}
+h1
+{
+  font-size: 2em;
+}
+td {
+  padding: 3px;
+}
+footer{
+  background: rgb(204, 33, 27);
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
